@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    height: 100%;   
+    width: 100%;
+    background-image: url("assets/images/Slanted-Gradient.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* H E A D E R */
+
+.header-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;  
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items ul{
+    margin-right: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-items a{
+    font-size: 20px;
+    margin-left: 100px;
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+}
+
+.logo{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    border: solid white 5px;
+    margin-left: 100px;
+}
+
+
+/* C O N T E N T */
+
+.content-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.about{
+    transform: rotate(-10.5deg);
+    margin-top: 200px;
+    margin-left: 75px;
+    color: azure;
+    font-size: 75px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+/* F O O T E R */
+
+.sarbas-signature{
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#settings{
+    width: 100px;
+    margin-right: 20px;
+}
+
+.mahser-message{
+    height: 100px;
+    padding-top: 25px;   
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;}
+
+#attention{
+    width: 100px;
+}
